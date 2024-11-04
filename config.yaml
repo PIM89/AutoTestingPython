@@ -1,0 +1,17 @@
+# Test settings
+folder_in: /home/user/tst
+folder_out: /home/user/out
+folder_ext: /home/user/folder1
+folder_ext2: /home/user/folder2
+count: 5
+bs: 256kB
+# Connection settings
+host: 0.0.0.0
+username: user
+port: '22'
+password: '1'
+local_path: /home/pim/PycharmProjects/seminar4_paramiko/tests/p7zip-full_16.02+transitional.1_all.deb
+remote_path: /home/user/p7zip-full_16.02+transitional.1_all.deb
+pkg_name: p7zip-full
+# Log settings
+file_name: log.txt

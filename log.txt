@@ -1,0 +1,102 @@
+Nov 04 11:05:04 ubuntu sshd[25880]: Accepted password for user from 127.0.0.1 port 53538 ssh2
+Nov 04 11:05:04 ubuntu sshd[25880]: pam_unix(sshd:session): session opened for user user(uid=1001) by user(uid=0)
+Nov 04 11:05:04 ubuntu systemd[1]: Created slice user-1001.slice - User Slice of UID 1001.
+Nov 04 11:05:04 ubuntu systemd[1]: Starting user-runtime-dir@1001.service - User Runtime Directory /run/user/1001...
+Nov 04 11:05:04 ubuntu systemd-logind[709]: New session 285 of user user.
+Nov 04 11:05:04 ubuntu systemd[1]: Finished user-runtime-dir@1001.service - User Runtime Directory /run/user/1001.
+Nov 04 11:05:04 ubuntu systemd[1]: Starting user@1001.service - User Manager for UID 1001...
+Nov 04 11:05:04 ubuntu (systemd)[25889]: pam_unix(systemd-user:session): session opened for user user(uid=1001) by user(uid=0)
+Nov 04 11:05:04 ubuntu systemd[25889]: Queued start job for default target default.target.
+Nov 04 11:05:04 ubuntu systemd[25889]: Created slice app.slice - User Application Slice.
+Nov 04 11:05:04 ubuntu systemd[25889]: Created slice session.slice - User Core Session Slice.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+Nov 04 11:05:04 ubuntu systemd[25889]: Reached target paths.target - Paths.
+Nov 04 11:05:04 ubuntu systemd[25889]: Reached target timers.target - Timers.
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on keyboxd.socket - GnuPG public key management service.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on pk-debconf-helper.socket - debconf communication socket.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Nov 04 11:05:04 ubuntu systemd[25889]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Nov 04 11:05:04 ubuntu systemd[25889]: Reached target sockets.target - Sockets.
+Nov 04 11:05:04 ubuntu systemd[25889]: Reached target basic.target - Basic System.
+Nov 04 11:05:04 ubuntu systemd[1]: Started user@1001.service - User Manager for UID 1001.
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker...
+Nov 04 11:05:04 ubuntu systemd[1]: Started session-285.scope - Session 285 of User user.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started pipewire.service - PipeWire Multimedia Service.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started filter-chain.service - PipeWire filter chain daemon.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started wireplumber.service - Multimedia Service Session Manager.
+Nov 04 11:05:04 ubuntu systemd[25889]: Started pipewire-pulse.service - PipeWire PulseAudio.
+Nov 04 11:05:04 ubuntu systemd[25889]: Finished gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker.
+Nov 04 11:05:04 ubuntu systemd[25889]: Reached target default.target - Main User Target.
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting dbus.service - D-Bus User Message Bus...
+Nov 04 11:05:04 ubuntu dbus-daemon[25921]: [session uid=1001 pid=25921] AppArmor D-Bus mediation is enabled
+Nov 04 11:05:04 ubuntu systemd[25889]: Started dbus.service - D-Bus User Message Bus.
+Nov 04 11:05:04 ubuntu systemd[25889]: Startup finished in 159ms.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 1 users.
+Nov 04 11:05:04 ubuntu pipewire[25908]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 2 users.
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 2 users.
+Nov 04 11:05:04 ubuntu dbus-daemon[25921]: [session uid=1001 pid=25921] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.8' (uid=1001 pid=25913 comm="/usr/bin/snap run snapd-desktop-integration" label="unconfined")
+Nov 04 11:05:04 ubuntu rtkit-daemon[1466]: Supervising 8 threads of 5 processes of 2 users.
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting xdg-document-portal.service - flatpak document portal service...
+Nov 04 11:05:04 ubuntu wireplumber[25915]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Nov 04 11:05:04 ubuntu wireplumber[25915]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Nov 04 11:05:04 ubuntu dbus-daemon[25921]: [session uid=1001 pid=25921] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.10' (uid=1001 pid=25955 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+Nov 04 11:05:04 ubuntu wireplumber[25915]: BlueZ system service is not available
+Nov 04 11:05:04 ubuntu systemd[25889]: Starting xdg-permission-store.service - sandboxed app permission store...
+Nov 04 11:05:04 ubuntu dbus-daemon[25921]: [session uid=1001 pid=25921] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Nov 04 11:05:04 ubuntu systemd[25889]: Started xdg-permission-store.service - sandboxed app permission store.
+Nov 04 11:05:04 ubuntu dbus-daemon[25921]: [session uid=1001 pid=25921] Successfully activated service 'org.freedesktop.portal.Documents'
+Nov 04 11:05:04 ubuntu systemd[25889]: Started xdg-document-portal.service - flatpak document portal service.
+Nov 04 11:05:04 ubuntu xdg-document-portal[25955]: Ignoring invalid max threads value 4294967295 > max (100000).
+Nov 04 11:05:04 ubuntu kernel: audit: type=1400 audit(1730718304.413:195): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.snapd-desktop-integration" name="/proc/26010/maps" pid=26010 comm="5" requested_mask="r" denied_mask="r" fsuid=1001 ouid=0
+Nov 04 11:05:04 ubuntu sshd[25880]: pam_unix(sshd:session): session closed for user user
+Nov 04 11:05:04 ubuntu systemd[1]: session-285.scope: Deactivated successfully.
+Nov 04 11:05:04 ubuntu systemd-logind[709]: Session 285 logged out. Waiting for processes to exit.
+Nov 04 11:05:04 ubuntu systemd-logind[709]: Removed session 285.
+Nov 04 11:05:04 ubuntu sshd[26072]: Accepted password for user from 127.0.0.1 port 53550 ssh2
+Nov 04 11:05:04 ubuntu sshd[26072]: pam_unix(sshd:session): session opened for user user(uid=1001) by user(uid=0)
+Nov 04 11:05:04 ubuntu systemd-logind[709]: New session 287 of user user.
+Nov 04 11:05:04 ubuntu systemd[1]: Started session-287.scope - Session 287 of User user.
+Nov 04 11:05:04 ubuntu snapd-desktop-i[26160]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+Nov 04 11:05:04 ubuntu wireplumber[25915]: BlueZ system service is not available
+Nov 04 11:05:04 ubuntu snapd-desktop-i[26160]: Checking session /org/freedesktop/login1/session/_32...
+Nov 04 11:05:04 ubuntu snapd-desktop-i[26160]: Checking session /org/freedesktop/login1/session/_3287...
+Nov 04 11:05:04 ubuntu sudo[26211]:     user : PWD=/home/user ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user/p7zip-full_16.02+transitional.1_all.deb
+Nov 04 11:05:04 ubuntu sudo[26211]: pam_unix(sudo:session): session opened for user root(uid=0) by user(uid=1001)
+Nov 04 11:05:04 ubuntu sudo[26211]: pam_unix(sudo:session): session closed for user root
+Nov 04 11:05:05 ubuntu sshd[26231]: Accepted password for user from 127.0.0.1 port 53562 ssh2
+Nov 04 11:05:05 ubuntu sshd[26231]: pam_unix(sshd:session): session opened for user user(uid=1001) by user(uid=0)
+Nov 04 11:05:05 ubuntu systemd-logind[709]: New session 288 of user user.
+Nov 04 11:05:05 ubuntu snapd-desktop-i[26160]: Detected new session 288 at /org/freedesktop/login1/session/_3288
+Nov 04 11:05:05 ubuntu sshd[26072]: pam_unix(sshd:session): session closed for user user
+Nov 04 11:05:05 ubuntu systemd[1]: Started session-288.scope - Session 288 of User user.
+Nov 04 11:05:05 ubuntu systemd[1]: session-287.scope: Deactivated successfully.
+Nov 04 11:05:05 ubuntu systemd-logind[709]: Session 287 logged out. Waiting for processes to exit.
+Nov 04 11:05:05 ubuntu systemd-logind[709]: Removed session 287.
+Nov 04 11:05:05 ubuntu wireplumber[25915]: BlueZ system service is not available
+Nov 04 11:05:05 ubuntu sudo[26277]:     user : PWD=/home/user ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+Nov 04 11:05:05 ubuntu sudo[26277]: pam_unix(sudo:session): session opened for user root(uid=0) by user(uid=1001)
+Nov 04 11:05:05 ubuntu sudo[26277]: pam_unix(sudo:session): session closed for user root
